@@ -1,0 +1,61 @@
+.navbar-header b{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+padding-right: 20px;
+    padding-top: 15px;
+}
+body{
+    margin: 20px;
+     padding: 10px;
+}
+  
+ .row h2{
+    padding: 10px;
+    padding-bottom: 0px;
+ }
+
+ .tet p{
+    padding-left: 6px;
+ }
+ .carousel-inner .item img{
+    width: 100%;
+    height:  300px;
+ }
+ 
+ 
+ .containe{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-between;
+  
+    padding-top: 10px;
+ }
+ .containe .item{
+    border: 1px solid gray;
+  
+    
+ }
+ .item h4,p{
+    padding-left: 10px;
+ }
+ .item a{
+
+    margin: 10px;
+    
+ }
+ .item h4{
+    font-weight: 200;
+    font-size: 20px;
+    color: black;
+ }
+table{
+    width: 90%;
+}
+ @media screen and (max-width: 550) {
+ .containe{
+    justify-content: none;
+ }
+    
+ }
